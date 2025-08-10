@@ -73,19 +73,19 @@ Desktop.ini
 *.component
 *.aaxplugin
 
-# Audio files (if you have test audio)
+# Test audio files (exclude user test files)
+test_audio/
+samples/
 *.wav
 *.mp3
 *.aiff
 *.flac
 
-# Image files (if you have test images)
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.gif
+# Test image files (exclude user test files, but keep GUI assets)
+test_images/
+user_images/
+# Note: Keep GUI assets like buttons, backgrounds, etc.
 
-# Binary data (if applicable)
-BinaryData.cpp
-BinaryData.h
+# Generated binary data (exclude auto-generated, but keep manual assets)
+# BinaryData.cpp
+# BinaryData.h
