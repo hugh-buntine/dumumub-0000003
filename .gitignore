@@ -1,0 +1,91 @@
+# JUCE Project .gitignore
+
+# Build outputs
+Builds/
+**/DerivedData/
+**/build/
+
+# Generated JUCE code
+JuceLibraryCode/
+
+# IDE files
+*.xcworkspace
+*.xcuserdata/
+*.user
+*.suo
+*.ncb
+*.aps
+*.plg
+*.opt
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Plugin binaries
+*.vst3
+*.component
+*.aaxplugin
+
+# Audio files (if you have test audio)
+*.wav
+*.mp3
+*.aiff
+*.flac
+
+# Image files (if you have test images)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+
+# Binary data (if applicable)
+BinaryData.cpp
+BinaryData.h

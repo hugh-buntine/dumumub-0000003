@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="tuNMmy" name="DUMUMUB-0000003" projectType="audioplug" useAppConfig="0"
+              jucerFormatVersion="1" companyName="dumumub" companyWebsite="www.dumumub.com"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              version="2.0.0">
+  <MAINGROUP id="gOgXO2" name="DUMUMUB-0000003">
+    <GROUP id="{D1217D7A-2FB9-11A1-8434-568EF7CE30B7}" name="GUI-IMAGES">
+      <FILE id="QxvVC0" name="ADD BUTTON PRESSED HOVER.png" compile="0" resource="1"
+            file="GUI-IMAGES/ADD BUTTON PRESSED HOVER.png"/>
+      <FILE id="T28vVO" name="ADD BUTTON PRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/ADD BUTTON PRESSED.png"/>
+      <FILE id="J2BxO0" name="ADD BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/ADD BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="QOpGxc" name="ADD BUTTON UNPRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/ADD BUTTON UNPRESSED.png"/>
+      <FILE id="zXvXPZ" name="AUDIO BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/AUDIO BUTTON PRESSED HOVER.png"/>
+      <FILE id="YIiDLa" name="AUDIO BUTTON PRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/AUDIO BUTTON PRESSED.png"/>
+      <FILE id="Dpkjzp" name="AUDIO BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/AUDIO BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="h1RnHY" name="AUDIO BUTTON UNPRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/AUDIO BUTTON UNPRESSED.png"/>
+      <FILE id="kfIWvu" name="AUDIO TEXT DROP.png" compile="0" resource="1"
+            file="GUI-IMAGES/AUDIO TEXT DROP.png"/>
+      <FILE id="dUfM7H" name="AUDIO TEXT EMPTY.png" compile="0" resource="1"
+            file="GUI-IMAGES/AUDIO TEXT EMPTY.png"/>
+      <FILE id="q0VsCy" name="BACKGROUND.png" compile="0" resource="1" file="GUI-IMAGES/BACKGROUND.png"/>
+      <FILE id="IbqNHs" name="ATTACK KNOB.png" compile="0" resource="1" file="GUI-IMAGES/ATTACK KNOB.png"/>
+      <FILE id="iPY64F" name="CANVAS BORDER.png" compile="0" resource="1"
+            file="GUI-IMAGES/CANVAS BORDER.png"/>
+      <FILE id="KwCLaD" name="CANVAS.png" compile="0" resource="1" file="GUI-IMAGES/CANVAS.png"/>
+      <FILE id="GT80Y6" name="DROP FILE LOCATION HOVER.png" compile="0" resource="1"
+            file="GUI-IMAGES/DROP FILE LOCATION HOVER.png"/>
+      <FILE id="KB6d5v" name="DROP FILE LOCATION.png" compile="0" resource="1"
+            file="GUI-IMAGES/DROP FILE LOCATION.png"/>
+      <FILE id="hNf6zq" name="EMITTER CASE.png" compile="0" resource="1"
+            file="GUI-IMAGES/EMITTER CASE.png"/>
+      <FILE id="WzqLgR" name="EMITTER LIGHT GREEN.png" compile="0" resource="1"
+            file="GUI-IMAGES/EMITTER LIGHT GREEN.png"/>
+      <FILE id="waTv3O" name="EMITTER LIGHT RED.png" compile="0" resource="1"
+            file="GUI-IMAGES/EMITTER LIGHT RED.png"/>
+      <FILE id="whV2yN" name="HELP.png" compile="0" resource="1" file="GUI-IMAGES/HELP.png"/>
+      <FILE id="aKLvcn" name="IMAGE BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/IMAGE BUTTON PRESSED HOVER.png"/>
+      <FILE id="jY20gL" name="DECAY KNOB.png" compile="0" resource="1" file="GUI-IMAGES/DECAY KNOB.png"/>
+      <FILE id="NlJmCS" name="IMAGE BUTTON PRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/IMAGE BUTTON PRESSED.png"/>
+      <FILE id="DRnk8Y" name="IMAGE BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/IMAGE BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="DVNgTI" name="IMAGE BUTTON UNPRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/IMAGE BUTTON UNPRESSED.png"/>
+      <FILE id="yfs7M3" name="IMAGE TEXT DROP.png" compile="0" resource="1"
+            file="GUI-IMAGES/IMAGE TEXT DROP.png"/>
+      <FILE id="FScq5v" name="IMAGE TEXT EMPTY.png" compile="0" resource="1"
+            file="GUI-IMAGES/IMAGE TEXT EMPTY.png"/>
+      <FILE id="RI9zu9" name="KNOB.png" compile="0" resource="1" file="GUI-IMAGES/KNOB.png"/>
+      <FILE id="AZABY9" name="KNOBS BACKGROUND.png" compile="0" resource="1"
+            file="GUI-IMAGES/KNOBS BACKGROUND.png"/>
+      <FILE id="QN1u2V" name="LEFT BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/LEFT BUTTON PRESSED HOVER.png"/>
+      <FILE id="XllJuO" name="LEFT BUTTON PRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/LEFT BUTTON PRESSED.png"/>
+      <FILE id="BVS4hM" name="LEFT BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/LEFT BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="bmgbKm" name="LEFT BUTTON UNPRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/LEFT BUTTON UNPRESSED.png"/>
+      <FILE id="lRLFxo" name="OFF.png" compile="0" resource="1" file="GUI-IMAGES/OFF.png"/>
+      <FILE id="xObJqV" name="ON.png" compile="0" resource="1" file="GUI-IMAGES/ON.png"/>
+      <FILE id="kw3Gkr" name="REPLACE BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/REPLACE BUTTON PRESSED HOVER.png"/>
+      <FILE id="J8ukz5" name="REPLACE BUTTON PRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/REPLACE BUTTON PRESSED.png"/>
+      <FILE id="VDlGVD" name="REPLACE BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/REPLACE BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="Hjm913" name="REPLACE BUTTON UNPRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/REPLACE BUTTON UNPRESSED.png"/>
+      <FILE id="GvulnW" name="RIGHT BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/RIGHT BUTTON PRESSED HOVER.png"/>
+      <FILE id="XDvafR" name="RIGHT BUTTON PRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/RIGHT BUTTON PRESSED.png"/>
+      <FILE id="qhvOqT" name="RIGHT BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/RIGHT BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="SJCRxF" name="RIGHT BUTTON UNPRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/RIGHT BUTTON UNPRESSED.png"/>
+      <FILE id="ow3IMi" name="SAW TOOTH WAVE BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/SAW TOOTH WAVE BUTTON PRESSED HOVER.png"/>
+      <FILE id="t7V824" name="RELEASE KNOB.png" compile="0" resource="1"
+            file="GUI-IMAGES/RELEASE KNOB.png"/>
+      <FILE id="RG5qt4" name="SAW TOOTH WAVE BUTTON PRESSED.png" compile="0"
+            resource="1" file="GUI-IMAGES/SAW TOOTH WAVE BUTTON PRESSED.png"/>
+      <FILE id="DgB2sk" name="SAW TOOTH WAVE BUTTON UNPRESSED HOVER.png"
+            compile="0" resource="1" file="GUI-IMAGES/SAW TOOTH WAVE BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="dLFIeG" name="SAW TOOTH WAVE BUTTON UNPRESSED.png" compile="0"
+            resource="1" file="GUI-IMAGES/SAW TOOTH WAVE BUTTON UNPRESSED.png"/>
+      <FILE id="QpApmJ" name="SINE WAVE BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/SINE WAVE BUTTON PRESSED HOVER.png"/>
+      <FILE id="yEUtr0" name="SINE WAVE BUTTON PRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/SINE WAVE BUTTON PRESSED.png"/>
+      <FILE id="q6L9x9" name="SINE WAVE BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/SINE WAVE BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="XrtLoG" name="SINE WAVE BUTTON UNPRESSED.png" compile="0"
+            resource="1" file="GUI-IMAGES/SINE WAVE BUTTON UNPRESSED.png"/>
+      <FILE id="w04niq" name="SQUARE WAVE BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/SQUARE WAVE BUTTON PRESSED HOVER.png"/>
+      <FILE id="Q342Eg" name="SQUARE WAVE BUTTON PRESSED.png" compile="0"
+            resource="1" file="GUI-IMAGES/SQUARE WAVE BUTTON PRESSED.png"/>
+      <FILE id="VfcmEM" name="SQUARE WAVE BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/SQUARE WAVE BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="t30Yea" name="SQUARE WAVE BUTTON UNPRESSED.png" compile="0"
+            resource="1" file="GUI-IMAGES/SQUARE WAVE BUTTON UNPRESSED.png"/>
+      <FILE id="Nxan3b" name="TITLE BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/TITLE BUTTON PRESSED HOVER.png"/>
+      <FILE id="a5GDHe" name="TITLE BUTTON PRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/TITLE BUTTON PRESSED.png"/>
+      <FILE id="gCTzBG" name="TITLE BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/TITLE BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="cQEQTa" name="TITLE BUTTON UNPRESSED.png" compile="0" resource="1"
+            file="GUI-IMAGES/TITLE BUTTON UNPRESSED.png"/>
+      <FILE id="DSttvJ" name="TRIANGLE WAVE BUTTON PRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/TRIANGLE WAVE BUTTON PRESSED HOVER.png"/>
+      <FILE id="wGjcxi" name="TRIANGLE WAVE BUTTON PRESSED.png" compile="0"
+            resource="1" file="GUI-IMAGES/TRIANGLE WAVE BUTTON PRESSED.png"/>
+      <FILE id="GflXeF" name="TRIANGLE WAVE BUTTON UNPRESSED HOVER.png" compile="0"
+            resource="1" file="GUI-IMAGES/TRIANGLE WAVE BUTTON UNPRESSED HOVER.png"/>
+      <FILE id="QminD8" name="SUSTAIN KNOB.png" compile="0" resource="1"
+            file="GUI-IMAGES/SUSTAIN KNOB.png"/>
+      <FILE id="pAUfv2" name="TRIANGLE WAVE BUTTON UNPRESSED.png" compile="0"
+            resource="1" file="GUI-IMAGES/TRIANGLE WAVE BUTTON UNPRESSED.png"/>
+    </GROUP>
+    <GROUP id="{5E8FB10E-45B8-24F6-05C3-0D9F3A9FA1FB}" name="Source">
+      <FILE id="z6J5Xp" name="KnobBackground.cpp" compile="1" resource="0"
+            file="Source/KnobBackground.cpp"/>
+      <FILE id="wn5pt3" name="KnobBackground.h" compile="0" resource="0"
+            file="Source/KnobBackground.h"/>
+      <FILE id="XDyl8o" name="Canvas.cpp" compile="1" resource="0" file="Source/Canvas.cpp"/>
+      <FILE id="o1z48Y" name="Canvas.h" compile="0" resource="0" file="Source/Canvas.h"/>
+      <FILE id="x8WH6v" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="mwpj5X" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="SEaRAj" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Iy5CT9" name="CanvasBorder.h" compile="0" resource="0" file="Source/CanvasBorder.h"/>
+      <FILE id="oKEfVJ" name="DUMUMUButton.h" compile="0" resource="0" file="Source/DUMUMUButton.h"/>
+      <FILE id="HUDhJ9" name="WavetableSound.h" compile="0" resource="0"
+            file="Source/WavetableSound.h"/>
+      <FILE id="OduZwj" name="DUMUMUButton.cpp" compile="1" resource="0"
+            file="Source/DUMUMUButton.cpp"/>
+      <FILE id="gKWdUk" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="I1z5Aa" name="TitleButton.h" compile="0" resource="0" file="Source/TitleButton.h"/>
+      <FILE id="ZQdYwG" name="AddButton.h" compile="0" resource="0" file="Source/AddButton.h"/>
+      <FILE id="L90XGq" name="LeftButton.h" compile="0" resource="0" file="Source/LeftButton.h"/>
+      <FILE id="mxuM83" name="SineButton.h" compile="0" resource="0" file="Source/SineButton.h"/>
+      <FILE id="DOyYQT" name="SawButton.h" compile="0" resource="0" file="Source/SawButton.h"/>
+      <FILE id="Njf976" name="TriangleButton.h" compile="0" resource="0"
+            file="Source/TriangleButton.h"/>
+      <FILE id="Fr514F" name="ReplaceButton.h" compile="0" resource="0" file="Source/ReplaceButton.h"/>
+      <FILE id="h62m8r" name="ImageButtonDUMUMUB.h" compile="0" resource="0"
+            file="Source/ImageButtonDUMUMUB.h"/>
+      <FILE id="mBSKhW" name="Overlay.h" compile="0" resource="0" file="Source/Overlay.h"/>
+      <FILE id="MeMz2V" name="FileDropZone.h" compile="0" resource="0" file="Source/FileDropZone.h"/>
+      <FILE id="Igua1L" name="StereoLight.h" compile="0" resource="0" file="Source/StereoLight.h"/>
+      <FILE id="KF8XZb" name="FileDisplay.h" compile="0" resource="0" file="Source/FileDisplay.h"/>
+      <FILE id="ecqRCu" name="AudioButton.h" compile="0" resource="0" file="Source/AudioButton.h"/>
+      <FILE id="jL0cAM" name="HelpScreen.h" compile="0" resource="0" file="Source/HelpScreen.h"/>
+      <FILE id="DG213N" name="SliderLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/SliderLookAndFeel.cpp"/>
+      <FILE id="ehnxjm" name="VolumeDisplay.h" compile="0" resource="0" file="Source/VolumeDisplay.h"/>
+      <FILE id="zfx2AG" name="SliderLookAndFeel.h" compile="0" resource="0"
+            file="Source/SliderLookAndFeel.h"/>
+      <FILE id="pKgccw" name="VolumeDisplay.cpp" compile="1" resource="0"
+            file="Source/VolumeDisplay.cpp"/>
+      <FILE id="W67DnD" name="HelpScreen.cpp" compile="1" resource="0" file="Source/HelpScreen.cpp"/>
+      <FILE id="OrKIer" name="SquareButton.h" compile="0" resource="0" file="Source/SquareButton.h"/>
+      <FILE id="dI46gr" name="RightButton.h" compile="0" resource="0" file="Source/RightButton.h"/>
+      <FILE id="q2Ni6n" name="WavetableVoice.h" compile="0" resource="0"
+            file="Source/WavetableVoice.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DUMUMUB-0000003"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DUMUMUB-0000003"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
