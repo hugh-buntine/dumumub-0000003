@@ -39,7 +39,7 @@ dumumub-0000003 is a professional-grade wavetable synthesizer plugin designed fo
 
 ![Waveform Replacement](DEMO%20MEDIA/REPLACEWITHWAVES.gif)
 
-*Real-time waveform adition and replacement system for dynamic and customisable sound design*
+*Real-time waveform addition and replacement system for dynamic and customisable sound design*
 
 ![Audio Playback](DEMO%20MEDIA/AUDIOPLAYBACK.gif)
 
