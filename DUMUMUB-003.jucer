@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="tuNMmy" name="DUMUMUB-0000003" projectType="audioplug" useAppConfig="0"
+<JUCERPROJECT id="tuNMmy" name="dumumub-0000003" projectType="audioplug" useAppConfig="0"
               jucerFormatVersion="1" companyName="dumumub" companyWebsite="www.dumumub.com"
               pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
-              version="2.0.0">
-  <MAINGROUP id="gOgXO2" name="DUMUMUB-0000003">
+              version="1.0.0">
+  <MAINGROUP id="gOgXO2" name="dumumub-0000003">
     <GROUP id="{D1217D7A-2FB9-11A1-8434-568EF7CE30B7}" name="GUI-IMAGES">
       <FILE id="QxvVC0" name="ADD BUTTON PRESSED HOVER.png" compile="0" resource="1"
             file="GUI-IMAGES/ADD BUTTON PRESSED HOVER.png"/>
