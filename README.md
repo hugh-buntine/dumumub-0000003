@@ -1,4 +1,4 @@
-# DUMUMUB Wavetable Synthesizer Plugin
+# dumumub-0000003 Wavetable Synthesizer Plugin
 
 ![Plugin Interface](https://img.shields.io/badge/JUCE-Audio%20Plugin-blue)
 ![Language](https://img.shields.io/badge/C++-17-red)
@@ -15,9 +15,9 @@ A sophisticated wavetable synthesizer audio plugin built with JUCE framework, fe
 
 ## �🎯 Project Overview
 
-DUMUMUB-0000003 is a professional-grade wavetable synthesizer plugin designed for digital audio workstations (DAWs). This project demonstrates advanced audio programming skills, real-time DSP processing, and modern C++ software architecture suitable for the audio technology industry.
+dumumub-0000003 is a professional-grade wavetable synthesizer plugin designed for digital audio workstations (DAWs). This project demonstrates advanced audio programming skills, real-time DSP processing, and modern C++ software architecture suitable for the audio technology industry.
 
-**Duration:** February 2025 - March 2025  
+**Duration:** February 2025 - March 2025  & August 2025
 **Role:** Solo Developer  
 **Technologies:** C++17, JUCE Framework, Audio Programming, DSP, MIDI
 
@@ -39,7 +39,7 @@ DUMUMUB-0000003 is a professional-grade wavetable synthesizer plugin designed fo
 
 ![Waveform Replacement](DEMO%20MEDIA/REPLACEWITHWAVES.gif)
 
-*Real-time waveform replacement system for dynamic sound design*
+*Real-time waveform adition and replacement system for dynamic and customisable sound design*
 
 ![Audio Playback](DEMO%20MEDIA/AUDIOPLAYBACK.gif)
 
@@ -61,7 +61,7 @@ DUMUMUB-0000003 is a professional-grade wavetable synthesizer plugin designed fo
 
 ![Adding Waveforms](DEMO%20MEDIA/ADDWAVE.gif)
 
-*Adding preset waveforms to the wavetable canvas*
+*Ability to add common wave shapes to create a more cohesive sound*
 
 ### Core Synthesis Engine
 - **Polyphonic Wavetable Synthesis** - 8-voice polyphony with independent stereo wavetables
@@ -105,7 +105,6 @@ class DUMUMUB003AudioProcessor : public juce::AudioProcessor
 - **Lock-free Audio Thread** - Proper real-time audio processing without blocking operations
 - **Efficient Wavetable Interpolation** - Phase-accurate sample generation with wraparound
 - **Multi-threaded Architecture** - Separate GUI and audio threads for optimal performance
-- **Memory Management** - RAII principles and proper resource cleanup
 
 ### DSP Algorithms
 - **Wavetable Synthesis** - Custom implementation with linear interpolation
@@ -187,19 +186,11 @@ DUMUMUB-0000003/
 **Challenge:** Saving and restoring complete plugin state including file references  
 **Solution:** Implemented XML-based serialization system preserving all parameters, file paths, and UI states
 
-## 📊 Performance Metrics
-
-- **Latency:** < 10ms round-trip latency at 512 sample buffer size
-- **CPU Usage:** < 5% CPU usage on modern systems during polyphonic playback
-- **Memory Footprint:** ~50MB RAM usage including UI and audio buffers
-- **Supported Sample Rates:** 44.1kHz - 192kHz
-- **Bit Depth:** 32-bit floating point internal processing
-
 ## 🎓 Learning Outcomes & Skills Demonstrated
 
 ### Technical Skills
 - **Audio Programming:** Real-time DSP, MIDI processing, plugin architecture
-- **C++ Expertise:** Modern C++17, object-oriented design, template programming
+- **C++ Expertise:** Modern C++17, object-oriented design
 - **Framework Proficiency:** JUCE audio framework, cross-platform development
 - **Algorithm Development:** Custom DSP algorithms, image processing, data conversion
 - **Performance Optimization:** Real-time constraints, memory management, CPU efficiency
@@ -217,39 +208,9 @@ DUMUMUB-0000003/
 - **User Experience:** Intuitive interface design for complex audio tools
 - **Cross-platform:** macOS/Windows compatibility considerations
 
-## 🚀 Future Development Roadmap
-
-### Version 2.0 Features
-- **Advanced Modulation:** LFO and envelope modulation matrix
-- **Effects Processing:** Built-in reverb, chorus, and filter effects
-- **Preset Management:** User preset system with categorization
-- **MIDI Learn:** Parameter automation mapping
-- **Spectral Analysis:** Real-time frequency domain visualization
-
-### Performance Enhancements
-- **SIMD Optimization:** Vector processing for improved performance
-- **Multi-threading:** Parallel processing for complex operations
-- **GPU Acceleration:** Graphics processing for real-time visualization
-
-## 📝 Installation & Usage
-
-### Build Requirements
-- macOS 10.15+ or Windows 10+
-- Xcode 12+ (macOS) or Visual Studio 2019+ (Windows)
-- JUCE Framework v7.x
-- Compatible DAW (Logic Pro, Pro Tools, Ableton Live, etc.)
-
-### Quick Start
-1. Load plugin in your DAW
-2. Select waveform type (sine, square, triangle, sawtooth)
-3. Import audio/image files via drag-and-drop
-4. Edit wavetables using the interactive canvas
-5. Adjust ADSR envelope and gain parameters
-6. Play MIDI notes to hear your custom wavetable
-
 ## 👨‍💻 About the Developer
 
-**Hugh Buntine** - Third-year Computer Science/Audio Engineering Student  
+**Hugh Buntine** - Third-year Computing Student at The University of Melbourne
 Passionate about audio technology, digital signal processing, and innovative music software development. Seeking graduate opportunities in audio technology, software engineering, or music technology companies.
 
 **Technical Interests:** Real-time audio processing, machine learning for audio, spatial audio, plugin development
