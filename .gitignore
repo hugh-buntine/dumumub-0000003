@@ -78,7 +78,7 @@ Desktop.ini
 *.dmg
 *.msi
 *.exe
-*.zip
+# *.zip
 Installers/
 Distribution/
 **/build/               # Packages build output
