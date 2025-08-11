@@ -7,7 +7,13 @@
 
 A sophisticated wavetable synthesizer audio plugin built with JUCE framework, featuring real-time wavetable editing, innovative image-to-audio conversion, and comprehensive MIDI synthesis capabilities.
 
-## 🎯 Project Overview
+## � Plugin Interface
+
+![DUMUMUB Interface](DEMO%20MEDIA/GUI.png)
+
+*Professional-grade wavetable synthesizer interface with real-time editing capabilities*
+
+## �🎯 Project Overview
 
 DUMUMUB-0000003 is a professional-grade wavetable synthesizer plugin designed for digital audio workstations (DAWs). This project demonstrates advanced audio programming skills, real-time DSP processing, and modern C++ software architecture suitable for the audio technology industry.
 
@@ -17,17 +23,27 @@ DUMUMUB-0000003 is a professional-grade wavetable synthesizer plugin designed fo
 
 ## 🚀 Key Features
 
-### Core Synthesis Engine
-- **Polyphonic Wavetable Synthesis** - 8-voice polyphony with independent stereo wavetables
-- **Real-time ADSR Envelope** - Attack, Decay, Sustain, Release parameter control
-- **MIDI Integration** - Full MIDI note and velocity support with proper frequency conversion
-- **High-Quality Audio Processing** - 44.1kHz+ sample rate support with low-latency performance
-
 ### Interactive Wavetable Editor
 - **Visual Wavetable Canvas** - Real-time 1024-sample wavetable visualization and editing
 - **Mouse-based Editing** - Direct wavetable manipulation with drag-and-draw functionality  
 - **Dual-channel Support** - Independent left/right stereo channel wavetable editing
 - **Live Audio Monitoring** - Real-time oscilloscope display during playback
+
+![Drawing Wavetables](DEMO%20MEDIA/DRAWWAVE.gif)
+
+*Manual wavetable drawing with mouse input for custom waveform creation*
+
+![Channel Editing](DEMO%20MEDIA/MODIFYLEFTCHANNEL.gif)
+
+*Independent left/right channel wavetable editing capabilities*
+
+![Waveform Replacement](DEMO%20MEDIA/REPLACEWITHWAVES.gif)
+
+*Real-time waveform replacement system for dynamic sound design*
+
+![Audio Playback](DEMO%20MEDIA/AUDIOPLAYBACK.gif)
+
+*Audio playback and real-time monitoring with visual feedback*
 
 ### Advanced File Import System
 - **Audio File Import** - Support for WAV, MP3, AIFF, FLAC formats with automatic wavetable conversion
@@ -35,11 +51,37 @@ DUMUMUB-0000003 is a professional-grade wavetable synthesizer plugin designed fo
 - **Drag-and-Drop Interface** - Intuitive file loading with visual feedback
 - **State Persistence** - Complete session save/restore including file paths and parameters
 
+![Image Import](DEMO%20MEDIA/IMAGEDROP.gif)
+
+*Image-to-wavetable conversion with drag-and-drop interface*
+
+![Audio Import](DEMO%20MEDIA/AUDIODROP.gif)
+
+*Audio file drag-and-drop with automatic wavetable conversion*
+
+![Adding Waveforms](DEMO%20MEDIA/ADDWAVE.gif)
+
+*Adding preset waveforms to the wavetable canvas*
+
+### Core Synthesis Engine
+- **Polyphonic Wavetable Synthesis** - 8-voice polyphony with independent stereo wavetables
+- **Real-time ADSR Envelope** - Attack, Decay, Sustain, Release parameter control
+- **MIDI Integration** - Full MIDI note and velocity support with proper frequency conversion
+- **High-Quality Audio Processing** - 44.1kHz+ sample rate support with low-latency performance
+
+![ADSR Control Demo](DEMO%20MEDIA/ADSR.gif)
+
+*Real-time ADSR envelope parameter adjustment during playback*
+
 ### Professional UI/UX
 - **Custom Graphics Engine** - Hand-designed interface with custom button states and hover effects
 - **Responsive Controls** - Professional-grade sliders, knobs, and buttons with custom look-and-feel
 - **Help System** - Integrated overlay help system for user guidance
 - **Channel Indicators** - Visual stereo channel status with independent toggle controls
+
+![Help System](DEMO%20MEDIA/HELP.gif)
+
+*Built-in interactive help system with overlay guidance*
 
 ## 🛠️ Technical Implementation
 
@@ -102,21 +144,6 @@ void fillImageWavetableFromImage();           // Convert images to wavetables
 ```
 DUMUMUB-0000003/
 ├── Source/
-│   ├── PluginProcessor.cpp/h      # Core audio processing engine
-│   ├── PluginEditor.cpp/h         # Main UI interface and layout
-│   ├── WavetableVoice.h           # Individual synthesis voice implementation
-│   ├── WavetableSound.h           # JUCE sound object for MIDI handling
-│   ├── Canvas.cpp/h               # Interactive wavetable editor
-│   ├── FileDropZone.h             # Drag-and-drop file handling
-│   ├── VolumeDisplay.cpp/h        # Real-time level metering
-│   ├── HelpScreen.cpp/h           # Overlay help system
-│   ├── SliderLookAndFeel.cpp/h    # Custom UI component styling
-│   └── Button Components/         # Modular button system
-│       ├── DUMUMUButton.cpp/h     # Base button class
-│       ├── SineButton.h           # Waveform selection buttons
-│       ├── AudioButton.h          # Audio import button
-│       ├── ImageButtonDUMUMUB.h   # Image import button
-│       └── Navigation/            # UI navigation components
 ├── JuceLibraryCode/               # Generated JUCE framework code
 └── Builds/                        # Platform-specific build outputs
     └── MacOSX/                    # Xcode project files

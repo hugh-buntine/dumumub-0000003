@@ -73,6 +73,16 @@ Desktop.ini
 *.component
 *.aaxplugin
 
+# Installers and distribution packages
+*.pkg
+*.dmg
+*.msi
+*.exe
+*.zip
+Installers/
+Distribution/
+**/build/               # Packages build output
+
 # Test audio files (exclude user test files)
 test_audio/
 samples/
@@ -81,10 +91,17 @@ samples/
 *.aiff
 *.flac
 
-# Test image files (exclude user test files, but keep GUI assets)
+# Video files (for creating GIFs, but don't commit large videos)
+*.mov
+*.mp4
+*.avi
+*.mkv
+
+# Test image files (exclude user test files, but keep GUI assets and documentation)
 test_images/
 user_images/
 # Note: Keep GUI assets like buttons, backgrounds, etc.
+# Note: Keep documentation images in images/ or docs/ folder
 
 # Generated binary data (exclude auto-generated, but keep manual assets)
 # BinaryData.cpp
