@@ -7,13 +7,13 @@
 
 A sophisticated wavetable synthesizer audio plugin built with JUCE framework, featuring real-time wavetable editing, innovative image-to-audio conversion, and comprehensive MIDI synthesis capabilities.
 
-## � Plugin Interface
+## Plugin Interface
 
 ![DUMUMUB Interface](DEMO%20MEDIA/GUI.png)
 
 *Professional-grade wavetable synthesizer interface with real-time editing capabilities*
 
-## �🎯 Project Overview
+## Project Overview
 
 dumumub-0000003 is a professional-grade wavetable synthesizer plugin designed for digital audio workstations (DAWs). This project demonstrates advanced audio programming skills, real-time DSP processing, and modern C++ software architecture suitable for the audio technology industry.
 
@@ -21,7 +21,7 @@ dumumub-0000003 is a professional-grade wavetable synthesizer plugin designed fo
 **Role:** Solo Developer  
 **Technologies:** C++17, JUCE Framework, Audio Programming, DSP, MIDI
 
-## 🚀 Key Features
+## Key Features
 
 ### Interactive Wavetable Editor
 - **Visual Wavetable Canvas** - Real-time 1024-sample wavetable visualization and editing
@@ -83,7 +83,7 @@ dumumub-0000003 is a professional-grade wavetable synthesizer plugin designed fo
 
 *Built-in interactive help system with overlay guidance*
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Architecture & Design Patterns
 ```cpp
@@ -124,7 +124,7 @@ void fillAudioWavetableFromAudio();           // Convert audio to wavetable
 void fillImageWavetableFromImage();           // Convert images to wavetables
 ```
 
-## 🎨 User Interface Features
+## User Interface Features
 
 ### Component-Based Architecture
 - **Modular UI Components** - Reusable button classes with inheritance hierarchy
@@ -138,7 +138,7 @@ void fillImageWavetableFromImage();           // Convert images to wavetables
 - **File Management** - Visual file name display with automatic updates
 - **Channel Controls** - Independent L/R channel toggles with visual indicators
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DUMUMUB-0000003/
@@ -148,7 +148,7 @@ DUMUMUB-0000003/
     └── MacOSX/                    # Xcode project files
 ```
 
-## 🔧 Build System & Dependencies
+## Build System & Dependencies
 
 ### Development Environment
 - **JUCE Framework** v7.x - Cross-platform audio application framework
@@ -168,7 +168,7 @@ DUMUMUB-0000003/
 </MODULES>
 ```
 
-## 💡 Technical Challenges Solved
+## Technical Challenges Solved
 
 ### 1. Real-time Wavetable Editing
 **Challenge:** Enabling real-time wavetable modification without audio artifacts  
@@ -186,7 +186,7 @@ DUMUMUB-0000003/
 **Challenge:** Saving and restoring complete plugin state including file references  
 **Solution:** Implemented XML-based serialization system preserving all parameters, file paths, and UI states
 
-## 🎓 Learning Outcomes & Skills Demonstrated
+## Learning Outcomes & Skills Demonstrated
 
 ### Technical Skills
 - **Audio Programming:** Real-time DSP, MIDI processing, plugin architecture
@@ -208,7 +208,7 @@ DUMUMUB-0000003/
 - **User Experience:** Intuitive interface design for complex audio tools
 - **Cross-platform:** macOS/Windows compatibility considerations
 
-## 👨‍💻 About the Developer
+## About the Developer
 
 **Hugh Buntine** - Third-year Computing Student at The University of Melbourne
 Passionate about audio technology, digital signal processing, and innovative music software development. Seeking graduate opportunities in audio technology, software engineering, or music technology companies.
