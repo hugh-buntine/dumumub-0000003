@@ -102,7 +102,6 @@ class DUMUMUB003AudioProcessor : public juce::AudioProcessor
 ```
 
 ### Real-time Audio Processing
-- **Lock-free Audio Thread** - Proper real-time audio processing without blocking operations
 - **Efficient Wavetable Interpolation** - Phase-accurate sample generation with wraparound
 - **Multi-threaded Architecture** - Separate GUI and audio threads for optimal performance
 
