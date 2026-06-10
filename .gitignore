@@ -1,108 +1,42 @@
-# JUCE Project .gitignore
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+**/.DS_Store
 
-# Build outputs
-Builds/
-**/DerivedData/
-**/build/
-
-# Generated JUCE code
-JuceLibraryCode/
-
-# IDE files
-*.xcworkspace
-*.xcuserdata/
-*.user
-*.suo
-*.ncb
-*.aps
-*.plg
-*.opt
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-*.ko
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Temporary files
-*.tmp
-*.temp
+# Log files
+logs/
 *.log
 
-# Plugin binaries
-*.vst3
-*.component
-*.aaxplugin
-
-# Installers and distribution packages
-*.pkg
-*.dmg
-*.msi
-*.exe
-# *.zip
-Installers/
-Distribution/
-**/build/               # Packages build output
-
-# Test audio files (exclude user test files)
-test_audio/
-samples/
-*.wav
-*.mp3
-*.aiff
-*.flac
-
-# Video files (for creating GIFs, but don't commit large videos)
+# Video files (use .gif versions instead)
 *.mov
-*.mp4
-*.avi
-*.mkv
 
-# Test image files (exclude user test files, but keep GUI assets and documentation)
-test_images/
-user_images/
-# Note: Keep GUI assets like buttons, backgrounds, etc.
-# Note: Keep documentation images in images/ or docs/ folder
+# Secrets and sensitive information
+SECRETS.txt
 
-# Generated binary data (exclude auto-generated, but keep manual assets)
-# BinaryData.cpp
-# BinaryData.h
+# Certificate export files (contain private keys)
+*.p12
+DeveloperIDApplication.txt
+DeveloperIDInstaller.txt
+
+# Build directories
+build/
+Build/
+Builds/*
+!Builds/.gitkeep
+
+Install/*
+
+Testing
+
+.idea
+cmake-build-debug
+cmake-build-release
+cmake-build-relwithdebinfo
+packaging/Output/*
