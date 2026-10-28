@@ -1,5 +1,6 @@
 # dumumub-0000003 Wavetable Synthesizer Plugin
 
+[![build](https://github.com/hugh-buntine/dumumub-0000003/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/hugh-buntine/dumumub-0000003/actions/workflows/build_and_test.yml)
 ![Plugin Interface](https://img.shields.io/badge/JUCE-Audio%20Plugin-blue)
 ![Language](https://img.shields.io/badge/C++-17-red)
 ![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-green)
@@ -217,3 +218,4 @@ Passionate about audio technology, digital signal processing, and innovative mus
 ---
 
 *This project demonstrates proficiency in C++, audio programming, DSP, and software engineering principles suitable for roles in audio technology companies, music software development, or general software engineering positions requiring high-performance, real-time systems expertise.*
+
